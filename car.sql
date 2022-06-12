@@ -1,4 +1,4 @@
---It is table that I will work on and it has been created by using the site Mockaroo.I recommend Mackaroo for those who needs to work on data.
+--It is the table that I will work on and it has been created by using the site named Mockaroo.I recommend Mackaroo for those who needs to work on data.
 
 
 create table CAR (
