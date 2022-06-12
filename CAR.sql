@@ -1,9 +1,13 @@
+-- Here is the table that I will work with.
+--This table has been created by using the site named Mockaroo which I can recommend for those who wants to work with data.
+
 create table CAR (
 	id INT,
 	make VARCHAR(50),
 	model VARCHAR(50),
 	price VARCHAR(50)
 );
+
 insert into CAR (id, make, model, price) values (1, 'Saturn', 'S-Series', '$267398.59');
 insert into CAR (id, make, model, price) values (2, 'Ferrari', '458 Italia', '$201206.40');
 insert into CAR (id, make, model, price) values (3, 'Audi', '90', '$827553.35');
