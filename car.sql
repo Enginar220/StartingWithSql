@@ -1,11 +1,11 @@
--- Here is the table that I will work with.
---This table has been created by using the site named Mockaroo which I can recommend for those who wants to work with data.
+--It is table that I will work on and it has been created by using the site Mockaroo.I recommend Mackaroo for those who needs to work on data.
+
 
 create table CAR (
-	id INT,
-	make VARCHAR(50),
-	model VARCHAR(50),
-	price VARCHAR(50)
+	id BIGSERIAL NOT NULL PRIMARY KEY,
+	make VARCHAR(50) NOT NULL,
+	model VARCHAR(50) NOT NULL,
+	price VARCHAR(50) NOT NULL
 );
 
 insert into CAR (id, make, model, price) values (1, 'Saturn', 'S-Series', '$267398.59');
