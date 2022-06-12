@@ -1,8 +1,12 @@
+--It is the data that I will work with.
+--This table(or data) has been created by using the site named Mockaroo which ı can recommend to create data to work on.
+
+
 create table MOCK_DATA (
-	id INT,
-	make VARCHAR(50),
-	model VARCHAR(50),
-	price VARCHAR(50)
+	id INT BIGSERIAL NOT NULL PRIMARY KEY,
+	make VARCHAR(50) NOT NULL,
+	model VARCHAR(50) NOT NULL,
+	price VARCHAR(50) NOT NULL
 );
 insert into MOCK_DATA (id, make, model, price) values (1, 'Pontiac', 'Grand Prix', '$549363.72');
 insert into MOCK_DATA (id, make, model, price) values (2, 'Bentley', 'Continental Flying Spur', '$809111.30');
